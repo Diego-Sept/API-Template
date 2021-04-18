@@ -9,4 +9,6 @@ public interface UsersRepository extends JpaRepository<UsersDTO, Long> {
 
     public abstract Optional<UsersDTO> findByUsername(String username);
 
+    public abstract boolean existsByUsername(String username);
+
 }

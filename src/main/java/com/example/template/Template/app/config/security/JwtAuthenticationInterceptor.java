@@ -1,4 +1,4 @@
-package com.example.template.Template.app.security;
+package com.example.template.Template.app.config.security;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

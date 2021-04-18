@@ -1,6 +1,6 @@
-package com.example.template.Template.app.security;
+package com.example.template.Template.app.config.security;
 
-import com.example.template.Template.app.security.UserDetails.UserDetailsConfigService;
+import com.example.template.Template.app.config.security.UserDetails.UserDetailsConfigService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -53,6 +53,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS).and()
                 .authorizeRequests().antMatchers("/api/authenticate/**").permitAll()
                 .antMatchers("/api/resource/**").permitAll()
+                .antMatchers("/**").permitAll()
                 .anyRequest().authenticated();
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
     }

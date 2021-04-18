@@ -1,6 +1,6 @@
 package com.example.template.Template.app.utils;
 
-import com.example.template.Template.app.security.UserDetails.UserDetailsConfig;
+import com.example.template.Template.app.config.security.UserDetails.UserDetailsConfig;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;

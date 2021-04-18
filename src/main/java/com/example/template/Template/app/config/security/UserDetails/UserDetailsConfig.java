@@ -1,4 +1,4 @@
-package com.example.template.Template.app.security.UserDetails;
+package com.example.template.Template.app.config.security.UserDetails;
 
 import com.example.template.Template.app.data.UsersDTO;
 import com.fasterxml.jackson.annotation.JsonIgnore;

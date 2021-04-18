@@ -20,8 +20,7 @@ public class UsersDTO {
     public UsersDTO() {
     }
 
-    public UsersDTO(Long id, String username, String password) {
-        this.id = id;
+    public UsersDTO(String username, String password) {
         this.username = username;
         this.password = password;
     }

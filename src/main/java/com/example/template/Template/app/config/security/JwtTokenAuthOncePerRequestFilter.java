@@ -1,6 +1,6 @@
-package com.example.template.Template.app.security;
+package com.example.template.Template.app.config.security;
 
-import com.example.template.Template.app.security.UserDetails.UserDetailsConfigService;
+import com.example.template.Template.app.config.security.UserDetails.UserDetailsConfigService;
 import com.example.template.Template.app.utils.JwtUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
